@@ -201,7 +201,9 @@ h2 {
     color: #000000;
 
 }
-
+.flexcontainer2 button:hover {
+    cursor: pointer;
+}
 .flexcontainer2 button {
     margin-top: 8%;
     margin-bottom: 5%;
@@ -280,6 +282,13 @@ h2 {
 
 }
 
+@media(max-width: 1000px) {
+    .flexcontainer3 p {
+        margin-top: 20%;
+
+    }
+}
+
 .nomedepoimento {
 
     font-style: normal;
@@ -341,9 +350,8 @@ strong {
     line-height: 20px;
     width: 319px;
     color: black;
-
-
 }
+
 
 .linha1conteudo {
     display: flex;
@@ -353,7 +361,7 @@ strong {
 
 @media(max-width: 1000px) {
     .linha1conteudo img {
-        margin-top: 12%;
+        margin-top: 20%;
 
     }
 }
