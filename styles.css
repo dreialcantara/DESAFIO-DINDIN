@@ -323,6 +323,8 @@ strong {
 
     flex-wrap: wrap;
     background-color: #F7F7F7;
+    padding-bottom: 3%;
+
 }
 
 .flexcontainer4 h2 {
@@ -339,15 +341,14 @@ strong {
     line-height: 20px;
     width: 319px;
     color: black;
-    margin-bottom: 14%;
+
 
 }
 
 .linha1conteudo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
+    justify-content: space-around
 }
 
 @media(max-width: 1000px) {
@@ -365,4 +366,111 @@ strong {
 
     color: #009688;
 
+}
+
+.todososposts {
+    align-self: center;
+    margin-top: 5%;
+
+
+
+}
+
+.todososposts p {
+    margin-left: 40vw;
+    padding: 1%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    color: #FF4081;
+    width: 25vwpx;
+    background: none;
+
+}
+
+@media(max-width: 1000px) {
+    .todososposts p {
+        margin-left: 10%;
+
+    }
+}
+
+/* FOOTER */
+
+footer {
+    padding: 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #419488;
+    max-width: 100%;
+}
+
+.logoetexto {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 76px;
+    color: #FFFFFF;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoetexto h5 {
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li {
+    padding-top: 5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+
+.botoesfooter {
+    max-width: 30vw;
+
+}
+
+.botoesfooter p {
+    height: 51px;
+    width: 20vw;
+    margin: 5%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5%;
+}
+
+@media(max-width: 1000px) {
+    .botoesfooter p {
+        display: none;
+
+    }
 }
